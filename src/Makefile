@@ -1,7 +1,7 @@
 all: jupiter
 
-jupiter: main.C
-	gcc -g -O0 -o $@ main.C
+jupiter: main.c
+	gcc -g -O0 -o $@ main.c
 
 clean:
 	-rm jupiter
